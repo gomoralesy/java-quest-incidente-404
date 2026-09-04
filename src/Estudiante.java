@@ -4,9 +4,9 @@ public class Estudiante {
     private String carrera;
     private int edad;
 
-    public Estudiante(String nombre, int edad, String carrera) {
+    public Estudiante(String nombre, String carrera, int edad) {
         this.nombre = nombre;
-        this.edad = edad;
         this.carrera = carrera;
+        this.edad = edad;
     }
 }
