@@ -28,5 +28,23 @@ public class Main {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Estudiante registrado: " + i);
         }
+
+        int op = 0;
+        while (op != 3) {
+            System.out.println("****Sistema estudiantes DUOC****");
+            System.out.println("1. Mostrar estado");
+            System.out.println("2. Procesa operacion");
+            System.out.println("3. Salir");
+            System.out.println("Ingrese una opcion: ");
+            op = scanner.nextInt();
+
+            if  (op == 1) {
+                System.out.println("Estado sistema: OPERATIVO");
+            } else if (op == 2) {
+                System.out.println("Estado operación: PROCESANDO");
+            }else if (op == 3) {
+                System.out.println("Cerrando sistema...");
+            }
+        }
     }
 }
