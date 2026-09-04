@@ -23,6 +23,12 @@ public class Main {
             System.out.println("Estudiante adulto.");
         }
 
+        if (edad >= 18) {
+            System.out.println("Acceso autorizado.");
+        } else {
+            System.out.println("Acceso restringido.");
+        }
+
         estudiante.mostrarInformacion();
 
         for (int i = 1; i <= 5; i++) {
